@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>FAQ - WebDesignContest.org</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="text-center">
+  <nav class="navbar navbar-expand-md navbar-light bg-light shadow fixed-top">
+    <div class="navbar-collapse">
+      <div class="mx-auto order-0">
+        <div class='navbar-brand ml-5'>WebDesignContest.org</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse justify-content-end mr-5" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./insights.html">Insights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <div class="container ">
+    <section class="row">
+      <div class="col-sm-12 bg-light p-5">
+        <h2>FAQ (Frequently Asked Questions)</h2>
+        <div class="text-left">
+          <p class="text-center">Frequently asked questions (FAQ’s) are listed questions and answers, all supposed to be
+            commonly
+            asked in
+            some context, and pertaining to a particular topic.</p>
+          <h5>Q: Why is there no sample of the winning site posted anywhere?</h5>
+          <p>A: The National Web Design contest is sponsored by the SkillsUSA organization. The short answer to your
+            question is that the organization has asked the various contest participating not to publish the results of
+            the winning teams. We would like to ask that you direct this question to your advisor who can further
+            explore this question. </p>
+          <h5>Q: Why is there no information on the written exam?</h5>
+          <p>A: The National Web Design technical committee publishes a guideline for the contest that outlines the
+            topics covered in detail. Given the nature of and the level of the competition, (nationals) it’s our goal
+            that you be familiar enough with the topics covered in the classroom and be prepared for sitting for any
+            exam or any exercise. That said, we recognize that the contest is new for many and that not everyone is
+            aware of the contest rules available from the SkillsUSA organization. Get with your instructor and or
+            adviser and ask them to contact their SkillsUSA representative for details. </p>
+          <p>We also understand and appreciate that not everyone has access to the courses taught by other schools. As a
+            professional organization of Web professionals we aim to improve upon that. To get a sense for our progress
+            please check out our website WebProfessionals.org. Also, please ask your adviser or instructor to contact us
+            for additional details and available resources for the classroom. Also, check out WebProfessionals.org
+            certification website to explore the topics that might be covered on the exam. <a
+              href="http://webprofessionals.org/certification/cwdsa">Details can be found by clicking here</a> </p>
+          <h5>Q. Should not a rubric be provided to help students have a more level playing field?</h5>
+          <p>A. We do publish one and update it every year. As we stated above, your teacher should have this and if not
+            ask her/him to contact SkilsUSA for this.</p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark text-light p-5">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Leave a Comment</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 p-3">
+          <form id="mainform" action="./form_action_here.php" method="POST">
+            <div class='form-group'>
+              <input class="form-control" type="text" id="fname" name="fname" placeholder="First name..." required>
+            </div>
+
+            <input class="form-control" type="text" id="lname" name="lname" placeholder="Last name..." required>
+            <br>
+            <input class="form-control" type="email" id="email" name="email" placeholder="Email..." required>
+            <br>
+            <textarea id="message" name="message" placeholder="Message..." rows="5" cols="32" form="mainform"
+              required></textarea>
+            <br>
+            <input type="submit" id="submit" class="form-btn" disabled value="Submit">
+            <input type="reset" id="reset" class="form-btn" disabled value="Reset">
+          </form>
+        </div>
+      </div>
+    </section>
+    <br></br>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>Copyright &copy; 2020 <a href="https://www.webdesigncontest.org/">WebDesignContest.org</a></p>
+  </div>
+
+</body>
+
+</html>

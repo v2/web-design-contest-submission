@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(226, 226, 226);
+
+}
+.navbar-brand {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+section {
+  margin-top: 100px;
+  box-shadow: grey 0px 0px 20px 5px;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 20px;
+}
+
+.form-control {
+  margin: auto;
+  width: 300px;
+}
+
+form > input {
+  margin-bottom: 0.5em;
+}
+
+form > textarea {
+  resize: none;
+}
+
+#title-img {
+  margin: 0;
+  padding: 0;
+  background: url('assets/web-design-contest-kc.jpg');
+  background-size: cover; 
+  width: 100%;
+}
